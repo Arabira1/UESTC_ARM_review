@@ -23,7 +23,7 @@
 数据处理类：LSL, LSR, ASR, ROR, RRX
 <br>
 &nbsp;&nbsp;ADD指令为加法指令，在ARM汇编中的格式为：
-> &nbsp;&nbsp;ADD R0, R1, R3;R0 = R1 + R2;<br>(R2也可以以为常数，在ARM汇编中的常数为带“#”的数，例如16进制的数16可以为：“#0x10”)
+> &nbsp;&nbsp;ADD R0, R1, R2;R0 = R1 + R2;<br>(R2也可以以为常数，在ARM汇编中的常数为带“#”的数，例如16进制的数16可以为：“#0x10”)
 <br>
 
 &nbsp;&nbsp;ADC指令也为加法指令，只不过于ADD加法指令不同的是，ADC为带符号位的加法指令，即在进行加法运算后再加上CPSR中的C标志位。<br><br>
